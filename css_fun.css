@@ -1,0 +1,26 @@
+
+container {
+    display: grid;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: auto;
+    grid-row-start: 1;
+    grid-row-end: auto;
+    background-color: blueviolet;
+    padding-left: 450px;
+}
+
+h1 {
+    justify-self: center;
+}
+
+h2 {
+    justify-self: center;
+}
+
+img {
+    justify-self: stretch;
+}
+
